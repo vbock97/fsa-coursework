@@ -1,0 +1,23 @@
+h1 {
+    color: coral;
+    text-align: center;
+}
+h2 {
+    color: darkorange;
+}
+
+th {
+    color: darkgoldenrod;
+}
+li {
+    color: chocolate;
+}
+section {
+    color: bisque;
+}
+table, th, td {
+    border: 1px solid orange
+}
+section {
+    color: bisque;
+}
