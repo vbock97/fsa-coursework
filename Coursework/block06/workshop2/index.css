@@ -1,34 +1,36 @@
 h1 {
-    color: coral;
-    text-align: center;
+  color: coral;
+  text-align: center;
 }
 
 h2 {
-    color: darkorange;
+  color: darkorange;
 
 }
 
 h3 {
-    color: darkgoldenrod;
+  color: darkgoldenrod;
 }
 
 section {
-    background-color: blanchedalmond;
+  background-color: blanchedalmond;
 }
 
 section {
-    width: 350px;
-    border: 3px solid orange;
-    padding: 5px;
-    margin:3px;
-  }
-  div{
-    float: left;
-    width: 175px;
-    padding: 5px;
-    margin: 5px;
-    background-color: blanchedalmond;
-  }
-  img{
-    padding: 10px;
-  }
+  width: 350px;
+  border: 3px solid orange;
+  padding: 5px;
+  margin: 3px;
+}
+
+div {
+  float: left;
+  width: 175px;
+  padding: 5px;
+  margin: 5px;
+  background-color: blanchedalmond;
+}
+
+img {
+  padding: 10px;
+}
