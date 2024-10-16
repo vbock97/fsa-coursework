@@ -1,0 +1,22 @@
+/* .gridblock {
+  display: grid;
+  grid-template-areas:
+    "username username username"
+    "password password . number number"
+    "checkbox checkbox checkbox checkbox";
+  gap: 5px;
+  padding: 2px;
+  grid-area: username;
+} */
+/* .username{
+    grid-area: username;
+    background-color: coral;
+} */
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
