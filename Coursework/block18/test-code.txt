@@ -1,0 +1,39 @@
+    UNIT TESTS
+
+1. A function called "multiplication" that returns the product of the two input numbers.
+
+A. Expect the output is a number
+    Test by inputting 2 numbers and making sure the output is a number
+B. Expect only 2 numbers are input
+    Error message if only one number was input
+C. Expect the 2 numbers are multiplied
+    Test by using multiply operator
+D. Expect that the 2 inputs are numbers and not strings
+    Error message if anything other than a number is input
+
+2. A function called "concatOdds" takes two arrays of integers as arguments. 
+It should return a single array that only contains the odd numbers, in ascending order, 
+from both of the arrays.
+
+A. Expect at least 1 odd numbers input
+    Error message if no odd numbers were input
+B. Expect odd numbers in new array to be in ascending order
+    New array from lowest to highest number (negative to positive)
+C. Expect multiple numbers in the arrays
+    New array would have more than one negative number
+D. Expect only ODD numbers split into new array
+    No even numbers added to new array
+
+    FUNCTIONAL TESTS
+
+1.A shopping cart checkout feature that allows a user to check out as a guest 
+(without an account), or as a logged-in user. They should be allowed to do either, 
+but should be asked if they want to create an account or log in if they check out as 
+a guest.
+
+A. Customers would be able to skip the option to set up an account
+B. Customers could log in at this time instead of logging in prior to checking out with 
+their cart
+C. Customers personal information would not be stored when checking out as a guest
+D. Additional message to ask if customer would like to set up an account when they want to 
+save personal information
