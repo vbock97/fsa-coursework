@@ -4,14 +4,14 @@ import Authenticate from '../components/Authenticate'
 import SignUpForm from '../components/SignUpForm'
 
 function App() {
-  const [] = useState(0)
+    const [token, setToken] = useState(null);
 
-  return (
-    <>
-    
-
-    </>
-  )
+    return(
+        <>
+        <SignUpForm token = {token} setToken={setToken}/>
+        <Authenticate token={token} setToken={setToken}/>
+        
+        </>
+    );
 }
-
 export default App
